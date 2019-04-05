@@ -1,0 +1,44 @@
+body{
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  height: 100vh;
+}
+.home{
+  background: url('~@/assets/img/1 (5).jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100% !important;  
+}
+#sidebar{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  color: #fff;
+  width: 0;
+  overflow-x: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  transition: .5s ; 
+}
+#content{
+height: 100%;
+background: rgba(255, 255, 255, 0.5) !important;
+transition: .5s;
+}
+.btn-menu{
+  color: black;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+
+}
+.sidebar-header{
+  font-family: pacifico;
+  /* padding: 10%; */
+}
+.sidebar-header li{
+  font-family: poiret one;
+}
