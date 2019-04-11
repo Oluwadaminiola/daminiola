@@ -1,45 +1,38 @@
 <template>
 <div >
-<div class="home" style="height: 100vh;" >
-  <nav id="sidebar" >
-    <button class="btn btn-menu mr-0" style="color:white;" v-on:click="closeSide" ><i class="icon ion-md-redo"></i></button>
-    <div class="sidebar-header px-3" >
-      <img src="../assets/img/niola.png" height="50px" >
-      Daminiola.
-    </div>
-    <ul class="list-unstyled components" >
-      <li class="py-2">
-          HOME 
-      </li>
-      <li class="py-2">
-          ABOUT 
-      </li>
-      <li class="py-2">
-          STACK 
-      </li>
-      <li class="py-2">
-          PROJECT 
-      </li>
-      <li class="py-2">
-          CONTACT ME 
-      </li>
-    </ul>
-  </nav>
-  <div id="content" style="height: 100vh;" >
-    <nav class="navbar navbar-expand-lg nann" >
-      <button class="btn btn-menu" v-on:click="openSide" >
-        <i class="icon ion-md-menu"></i>        
-      </button>
-    </nav>
-    <div class="container" >
-      <div class="row" >
-      <div class="col-lg-12" >
-
+  <div class="" style="" >
+    <div class="container-fluid" >
+      <div class="tex1" >
+        <div data-aos="fade-up-right" class="fir" style="margin-top: 70px;" >
+          <b>Hi, I'm Pelumi.</b>
+        </div>
+        <div data-aos="slide-up"  >
+          A Frontend Developer, 
+          I create beautiful and
+          highly interactive 
+          user interfaces.
+        </div>
+        <div class="row" >
+          <div class="btn btn-need m-2" style="width: 200px !important; ">
+            <a href="#" style="color: white; text-decoration: none;" >I need a website</a>
+          </div>
+          <div class="btn btn-hire m-2" style="width: 200px !important; ">
+            <router-link to="/contactme" style="color: white; text-decoration: none;" >I'm looking to hire</router-link>
+          </div>
+        </div>
       </div>
-    </div>
+      
+      <!-- <div class="textt" >
+        <div class="e">Hi there, </div> 
+<div class="l"> 
+  <span>I'm Pelumi</span>
+</div>
+
+
+      </div> -->
+    
     </div>
   </div>
-</div>
 </div>
 </template>
 
@@ -51,16 +44,7 @@ export default {
       
     }
   },
-  methods: {
-    openSide(){
-      document.getElementById('sidebar').style.width = '100px';
-      document.getElementById('content').style.marginLeft = '100px';
-    },
-    closeSide(){
-      document.getElementById('sidebar').style.width = '0';
-      document.getElementById('content').style.marginLeft = '0';
-    }
-  }
+  
 }
 </script>
 
