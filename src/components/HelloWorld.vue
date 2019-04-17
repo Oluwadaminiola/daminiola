@@ -21,15 +21,6 @@
           </div>
         </div>
       </div>
-      
-      <!-- <div class="textt" >
-        <div class="e">Hi there, </div> 
-<div class="l"> 
-  <span>I'm Pelumi</span>
-</div>
-
-
-      </div> -->
     
     </div>
   </div>

@@ -8,18 +8,18 @@
       <div class="col-lg-12" >
           <div class="d-flex row" >
             <div class="p-1" >
-                <b>Tools: </b>
+                <b>I've worked with: </b>
             </div>
             <div class="p-1 tools" >
-                <v-chip outline label color="black">HTML5</v-chip>
-                <v-chip outline label color="black">CSS3</v-chip>
-                <v-chip outline label color="black">BOOTSTRAP 4</v-chip>
-                <v-chip outline label color="black">MDBOOTSTRAP</v-chip>
-                <v-chip outline label color="black">ELEMENTUI</v-chip>
-                <v-chip outline label color="black">VUETIFY</v-chip>
-                <v-chip outline label color="black">VUEJS</v-chip>
-                <v-chip outline label color="black">JQUERY</v-chip>
-                <v-chip outline label color="black">JAVASCRIPT</v-chip>
+                <div class="badge badge-dark">HTML5</div>
+                <div class="badge badge-dark">CSS3</div>
+                <div class="badge badge-dark">BOOTSTRAP 4</div>
+                <div class="badge badge-dark">MDBOOTSTRAP</div>
+                <div class="badge badge-dark">ELEMENTUI</div>
+                <div class="badge badge-dark">VUETIFY</div>
+                <div class="badge badge-dark">VUEJS</div>
+                <div class="badge badge-dark">JQUERY</div>
+                <div class="badge badge-dark">JAVASCRIPT</div>
                 <!-- <v-chip outline label color="black">REACT</v-chip> -->
             </div>
           </div>
@@ -27,74 +27,81 @@
       
       <div class="col-lg-5 col-xs-12 my-3" data-aos="slide-up" >
         <div class="text-center" >
-          <a href="https://redberylmedia.com/" style="color: black;text-decoration: none;" >Red Beryl Media</a><br>
           <img src="../assets/img/Group 2 (1).png" width="250px" >
         </div>
               
       </div>
-      <div class="col-lg-5 col-xs-12 py-lg-5 py-xs-2 tools" data-aos="slide-up" >
+      <div class="col-lg-5 col-xs-12 py-3 tools" data-aos="slide-up" >
+        <h4>
+          <a href="https://redberylmedia.com/" style="color: black;text-decoration: none;" >Red Beryl Media</a><br>
+        </h4>
         <p>
-            Built a website for a media company.
+            A temporary website for a new media company.
         </p>
-        <v-chip outline label color="black">HTML5</v-chip>
-        <v-chip outline label color="black">CSS3</v-chip>
-        <v-chip outline label color="black">BOOTSTRAP 4</v-chip>
-        <v-chip outline label color="black">JAVASCRIPT</v-chip>
+        <div class="badge badge-dark" >HTML5</div>
+        <div class="badge badge-dark">CSS3</div>
+        <div class="badge badge-dark">BOOTSTRAP 4</div>
+        <div class="badge badge-dark">JAVASCRIPT</div>
       </div>
       <div class="col-lg-5 col-xs-12 my-3" data-aos="slide-up" >
         <div class="text-center" >
-          <a href="http://kiddiesoasis.com.ng" style="color: black;text-decoration: none;" >KiddiesOasis</a><br>
           <img src="../assets/img/Group 2 (2).png" width="250px" >
         </div>
               
       </div>
-      <div class="col-lg-5 col-xs-12 py-lg-5 py-xs-2 tools" data-aos="slide-up" >
+      <div class="col-lg-5 col-xs-12 py-3 tools" data-aos="slide-up" >
+        <h4>
+          <a href="http://kiddiesoasis.com.ng" style="color: black;text-decoration: none;" >KiddiesOasis</a><br>
+        </h4>
         <p>
-            Built a website for a creche
+            A website for a new creche
             located in Lagos, Nigeria.
         </p>
-        <v-chip outline label color="black">HTML5</v-chip>
-        <v-chip outline label color="black">CSS3</v-chip>
-        <v-chip outline label color="black">BOOTSTRAP 4</v-chip>
-        <v-chip outline label color="black">JAVASCRIPT</v-chip>
-        <v-chip outline label color="black">JQUERY</v-chip>
+        <div class="badge badge-dark">HTML5</div>
+        <div class="badge badge-dark">CSS3</div>
+        <div class="badge badge-dark">BOOTSTRAP 4</div>
+        <div class="badge badge-dark">JAVASCRIPT</div>
+        <div class="badge badge-dark">JQUERY</div>
       </div>
       <div class="col-lg-5 col-xs-12 my-3" data-aos="slide-up" >
         <div class="text-center" >
-          <a href="http://nesterverify.com" style="color: black;text-decoration: none;" >NesterVerify</a><br>                
           <img src="../assets/img/Group 2.png" width="250px" >
         </div>
               
       </div>
-      <div class="col-lg-5 col-xs-12 py-lg-5 py-xs-2 tools" data-aos="slide-up" >
+      <div class="col-lg-5 col-xs-12 py-3 tools" data-aos="slide-up" >
+        <h4>
+          <a href="http://nesterverify.com" style="color: black;text-decoration: none;" >NesterVerify</a><br>                
+        </h4>
         <p>
-            Built the frontend of a web application
-            used for verifying clients and vendors 
+            A web application used for 
+            verifying clients and vendors 
             all around the world.
         </p>
-        <v-chip outline label color="black" >HTML5</v-chip>
-        <v-chip outline label color="black" >CSS3</v-chip>
-        <v-chip outline label color="black" >BOOTSTRAP 4</v-chip>
-        <v-chip outline label color="black" >ELEMENTUI</v-chip>
-        <v-chip outline label color="black" >VUEJS</v-chip>
+        <div class="badge badge-dark" >HTML5</div>
+        <div class="badge badge-dark" >CSS3</div>
+        <div class="badge badge-dark" >BOOTSTRAP 4</div>
+        <div class="badge badge-dark" >ELEMENTUI</div>
+        <div class="badge badge-dark" >VUEJS</div>
       </div>
       <div class="col-lg-5 col-xs-12 my-3 " data-aos="slide-up" >
         <div class="text-center" >
-          <a href="https://app.nesterpod.com" style="color: black;text-decoration: none;" >NesterPod</a><br>
           <img src="../assets/img/Group.png" width="250px" >
         </div>
       </div>
-      <div class="col-lg-5 col-xs-12 py-lg-5 py-xs-2 tools" data-aos="slide-up" >
+      <div class="col-lg-5 col-xs-12 py-3 tools" data-aos="slide-up" >
+        <h4>
+          <a href="https://app.nesterpod.com" style="color: black;text-decoration: none;" >NesterPod</a><br>
+        </h4>
         <p>
-            Worked together in a team to build a
-            web application for tracking deliveries
-            and orders.
+            A web application for tracking 
+            deliveries and orders.
         </p>
-        <v-chip outline label color="black" >HTML5</v-chip>
-        <v-chip outline label color="black" >CSS3</v-chip>
-        <v-chip outline label color="black" >BOOTSTRAP 4</v-chip>
-        <v-chip outline label color="black" >ELEMENTUI</v-chip>
-        <v-chip outline label color="black" >VUEJS</v-chip>
+        <div class="badge badge-dark" >HTML5</div>
+        <div class="badge badge-dark" >CSS3</div>
+        <div class="badge badge-dark" >BOOTSTRAP 4</div>
+        <div class="badge badge-dark" >ELEMENTUI</div>
+        <div class="badge badge-dark" >VUEJS</div>
       </div>
     </div>
   </div>
